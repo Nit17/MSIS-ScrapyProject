@@ -1,0 +1,218 @@
+[
+    {
+        "Name": "APPLE iPhone 14 ",
+        "Price": 57999,
+        "Color": "Blue",
+        "RAM": "128 GB",
+        "Rating": "4.6",
+        "Ratings": 216389,
+        "Reviews": 216389
+    },
+    {
+        "Name": "APPLE iPhone 14 ",
+        "Price": 58999,
+        "Color": "Starlight",
+        "RAM": "128 GB",
+        "Rating": "4.6",
+        "Ratings": 216389,
+        "Reviews": 216389
+    },
+    {
+        "Name": "APPLE iPhone 14 ",
+        "Price": 58999,
+        "Color": "Midnight",
+        "RAM": "128 GB",
+        "Rating": "4.6",
+        "Ratings": 216389,
+        "Reviews": 216389
+    },
+    {
+        "Name": "APPLE iPhone 14 Plus ",
+        "Price": 63999,
+        "Color": "Blue",
+        "RAM": "128 GB",
+        "Rating": "4.6",
+        "Ratings": 46765,
+        "Reviews": 46765
+    },
+    {
+        "Name": "APPLE iPhone 14 Plus ",
+        "Price": 63999,
+        "Color": "Starlight",
+        "RAM": "128 GB",
+        "Rating": "4.6",
+        "Ratings": 46765,
+        "Reviews": 46765
+    },
+    {
+        "Name": "APPLE iPhone 14 Plus ",
+        "Price": 63999,
+        "Color": "Midnight",
+        "RAM": "128 GB",
+        "Rating": "4.6",
+        "Ratings": 46765,
+        "Reviews": 46765
+    },
+    {
+        "Name": "APPLE iPhone 14 Plus ",
+        "Price": 63999,
+        "Color": "Purple",
+        "RAM": "128 GB",
+        "Rating": "4.6",
+        "Ratings": 46765,
+        "Reviews": 46765
+    },
+    {
+        "Name": "APPLE iPhone 14 ",
+        "Price": 58999,
+        "Color": "Purple",
+        "RAM": "128 GB",
+        "Rating": "4.6",
+        "Ratings": 216389,
+        "Reviews": 216389
+    },
+    {
+        "Name": "APPLE iPhone 14 ",
+        "Price": 67499,
+        "Color": "Starlight",
+        "RAM": "256 GB",
+        "Rating": "4.6",
+        "Ratings": 216389,
+        "Reviews": 216389
+    },
+    {
+        "Name": "APPLE iPhone 12 ",
+        "Price": 39999,
+        "Color": "White",
+        "RAM": "64 GB",
+        "Rating": "4.6",
+        "Ratings": 202563,
+        "Reviews": 202563
+    },
+    {
+        "Name": "APPLE iPhone 12 ",
+        "Price": 39999,
+        "Color": "Blue",
+        "RAM": "64 GB",
+        "Rating": "4.6",
+        "Ratings": 202563,
+        "Reviews": 202563
+    },
+    {
+        "Name": "APPLE iPhone 14 ",
+        "Price": 67999,
+        "Color": "Blue",
+        "RAM": "256 GB",
+        "Rating": "4.6",
+        "Ratings": 216389,
+        "Reviews": 216389
+    },
+    {
+        "Name": "APPLE iPhone 15 ",
+        "Price": 79900,
+        "Color": "Blue",
+        "RAM": "128 GB",
+        "Rating": "4.6",
+        "Ratings": 1217,
+        "Reviews": 1217
+    },
+    {
+        "Name": "APPLE iPhone 14 ",
+        "Price": 68999,
+        "Color": "Midnight",
+        "RAM": "256 GB",
+        "Rating": "4.6",
+        "Ratings": 216389,
+        "Reviews": 216389
+    },
+    {
+        "Name": "APPLE iPhone 12 ",
+        "Price": 39999,
+        "Color": "Green",
+        "RAM": "64 GB",
+        "Rating": "4.6",
+        "Ratings": 202563,
+        "Reviews": 202563
+    },
+    {
+        "Name": "APPLE iPhone 15 ",
+        "Price": 79900,
+        "Color": "Black",
+        "RAM": "128 GB",
+        "Rating": "4.6",
+        "Ratings": 1217,
+        "Reviews": 1217
+    },
+    {
+        "Name": "APPLE iPhone 12 ",
+        "Price": 44999,
+        "Color": "Blue",
+        "RAM": "128 GB",
+        "Rating": "4.6",
+        "Ratings": 202563,
+        "Reviews": 202563
+    },
+    {
+        "Name": "APPLE iPhone 12 ",
+        "Price": 39999,
+        "Color": "Black",
+        "RAM": "64 GB",
+        "Rating": "4.6",
+        "Ratings": 202563,
+        "Reviews": 202563
+    },
+    {
+        "Name": "APPLE iPhone 14 ",
+        "Price": 68999,
+        "Color": "Purple",
+        "RAM": "256 GB",
+        "Rating": "4.6",
+        "Ratings": 216389,
+        "Reviews": 216389
+    },
+    {
+        "Name": "APPLE iPhone 12 ",
+        "Price": 44999,
+        "Color": "White",
+        "RAM": "128 GB",
+        "Rating": "4.6",
+        "Ratings": 202563,
+        "Reviews": 202563
+    },
+    {
+        "Name": "APPLE iPhone 12 ",
+        "Price": 44999,
+        "Color": "Black",
+        "RAM": "128 GB",
+        "Rating": "4.6",
+        "Ratings": 202563,
+        "Reviews": 202563
+    },
+    {
+        "Name": "APPLE iPhone 15 ",
+        "Price": 79900,
+        "Color": "Green",
+        "RAM": "128 GB",
+        "Rating": "4.6",
+        "Ratings": 1217,
+        "Reviews": 1217
+    },
+    {
+        "Name": "APPLE iPhone 13 ",
+        "Price": 51999,
+        "Color": "Blue",
+        "RAM": "128 GB",
+        "Rating": "4.7",
+        "Ratings": 272491,
+        "Reviews": 272491
+    },
+    {
+        "Name": "APPLE iPhone 15 ",
+        "Price": 79900,
+        "Color": "Pink",
+        "RAM": "128 GB",
+        "Rating": "4.6",
+        "Ratings": 1217,
+        "Reviews": 1217
+    }
+]

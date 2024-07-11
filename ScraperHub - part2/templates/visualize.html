@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Scraper</title>
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: url('/static/mahe2.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgb(255, 255, 255); 
+            padding: 10px;
+        }
+        .header img {
+            width: 50px; 
+            height:50px
+        }
+        .container {
+            margin: 50px auto;
+            max-width: 1000px;
+            align-items: center;
+            background-color: rgb(0, 159, 165); 
+            padding: 20px;
+            border-radius: 10px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #b37a00;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #00b348;
+        }
+        .home-link {
+            text-decoration: none;
+            color: #ff0048;
+        }
+        .home-link:hover {
+            text-decoration: underline;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: justify;
+        }
+
+        th {
+            background-color:#00b339;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+       
+        .plot{
+            width:60%;
+            height: 60%;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="{{ url_for('static', filename='msis_logo.jpg') }}" alt="Image" id="logo"> 
+        <a href="#" class="home-link">Home</a>
+    </div>
+    <div class="container">
+        <input type="hidden" name="chart" value="{{ chart }}" readonly>
+        <input type="hidden" name="tags" value="{{ tags }}" readonly>
+
+        <img src="{{ url_for('static', filename='name_count_pie.jpg') }}" alt="Image" class="plot" id="image1">
+        <img src="{{ url_for('static', filename='name_price_pie.jpg') }}" alt="Image" class="plot" id="image2">
+        <img src="{{ url_for('static', filename='name_ratings_pie.jpg') }}" alt="Image" class="plot" id="image3">
+        <img src="{{ url_for('static', filename='name_reviews_pie.jpg') }}" alt="Image" class="plot" id="image4">
+        <img src="{{ url_for('static', filename='name_count_plot.jpg') }}" alt="Image" class="plot" id="image5">
+        <img src="{{ url_for('static', filename='name_price_plot.jpg') }}" alt="Image" class="plot" id="image6">
+        <img src="{{ url_for('static', filename='color_count_plot.jpg') }}" alt="Image" class="plot" id="image7">
+        <img src="{{ url_for('static', filename='ram_count_plot.jpg') }}" alt="Image" class="plot" id="image8">
+        <img src="{{ url_for('static', filename='ram_price_plot.jpg') }}" alt="Image" class="plot" id="image9">
+        <img src="{{ url_for('static', filename='name_reviews_plot.jpg') }}" alt="Image" class="plot" id="image10">
+        <img src="{{ url_for('static', filename='name_ratings_plot.jpg') }}" alt="Image" class="plot" id="image11">
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var chartValue = "{{ chart }}";
+                var tagsValue = "{{ tags }}";
+                
+                var image1 = document.getElementById('image1');
+                var image2 = document.getElementById('image2');
+                var image3 = document.getElementById('image3');
+                var image4 = document.getElementById('image4');
+                var image5 = document.getElementById('image5');
+                var image6 = document.getElementById('image6');
+                var image7 = document.getElementById('image7');
+                var image8 = document.getElementById('image8');
+                var image9 = document.getElementById('image9');
+                var image10 = document.getElementById('image10');
+                var image11 = document.getElementById('image11');
+
+            
+                if (chartValue === 'pie') {
+                    console.log("Showing image1");
+                    image1.style.display = 'block';
+                    image2.style.display = 'block';
+                    image3.style.display = 'block';
+                    image4.style.display = 'block';
+                    image5.style.display = 'none';
+                    image6.style.display = 'none';
+                    image7.style.display = 'none';
+                    image8.style.display = 'none';
+                    image9.style.display = 'none';
+                    image10.style.display = 'none';
+                    image11.style.display = 'none';
+                }if (chartValue === 'column') {
+                    console.log("Showing image2");
+                    image1.style.display = 'none';
+                    image2.style.display = 'none';
+                    image3.style.display = 'none';
+                    image4.style.display = 'none';
+                    image5.style.display = 'block';
+                    image6.style.display = 'block';
+                    image7.style.display = 'block';
+                    image8.style.display = 'block';
+                    image9.style.display = 'block';
+                    image10.style.display = 'block';
+                    image11.style.display = 'block';
+                } 
+            });
+        </script>
+    </div>
+</body>
+</html>
